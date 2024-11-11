@@ -20,7 +20,7 @@ foreach($receitas as $receita){
 
 ?>
 
-<button><a href="view/cadastrar.php">Nova receita</a></button>
+<button><a href="view/receita/cadastrar2.php">Nova receita</a></button>
 
     
 </body>

@@ -34,7 +34,7 @@
 
     <br><br>
 
-    <a href="../index.php">VOLTAR</a>
+    <a href="../../index.php">VOLTAR</a>
 </body>
 
 </html>
