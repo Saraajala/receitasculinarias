@@ -1,0 +1,154 @@
+/* Paleta de Cores */
+:root {
+    --color-background: #f9f9f3;      /* Fundo suave */
+    --color-primary: #6b8e23;         /* Verde oliva escuro */
+    --color-secondary: #8fbc8f;       /* Verde oliva médio */
+    --color-accent: #dcedc8;          /* Verde oliva claro */
+    --color-text: #333333;            /* Cor do texto principal */
+    --color-text-light: #ffffff;      /* Texto claro */
+    --color-shadow: rgba(0, 0, 0, 0.1); /* Sombra leve */
+}
+
+/* Estilos Globais */
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-secondary);
+}
+
+/* Estilo de Contêiner */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Menu de Navegação */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: var(--color-text-light);
+    font-size: 1.2em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Estilo dos Artigos */
+.article-card {
+    background-color: var(--color-accent);
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px var(--color-shadow);
+    margin: 20px 0;
+    padding: 20px;
+    transition: transform 0.2s;
+}
+
+.article-card:hover {
+    transform: scale(1.02);
+}
+
+.article-card h2 {
+    color: var(--color-primary);
+    font-size: 1.8em;
+}
+
+.article-card p {
+    color: var(--color-text);
+}
+
+/* Botão */
+button, .btn {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: var(--color-secondary);
+}
+
+/* Rodapé */
+footer {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.9em;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .article-card h2 {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+    
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
