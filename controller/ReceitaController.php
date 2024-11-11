@@ -50,6 +50,12 @@ class ReceitaController
         }
     }
 
+    public function listarusuarios()
+    {
+        $usuario = $this->receitaModel->listarUsuarios();
+        include 'C:/aluno2/xampp/htdocs/receitasculinarias/view/usuario/listar.php';
+    }
+
     public function adicionarreceita($nome_receita, $ingrediente, $modo_preparo)
     {
         $this->receitaModel->adicionarreceita($nome_receita, $ingrediente, $modo_preparo);
@@ -66,7 +72,6 @@ class ReceitaController
         $this->receitaModel->atualizarReceita($id, $nome_receita, $ingrediente, $modo_preparo);
     }
 
-    // ReceitaController.php
     public function listarReceitaPorId($id)
     {
         return $this->receitaModel->listarReceitaPorId($id);

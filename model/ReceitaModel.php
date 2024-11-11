@@ -23,6 +23,13 @@ class ReceitaModel
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
 
+    public function listarUsuarios() {
+        $sql = "SELECT nome_usuario, email, senha FROM usuarios";
+        $stmt = $this->pdo->query($sql);
+        return $stmt->fetchAll(PDO::FETCH_ASSOC);
+    }
+    
+
     public function adicionarreceita($nome_receita, $ingrediente, $modo_preparo)
     {
         $sql = "INSERT INTO receitas (nome_receita, ingrediente, modo_preparo) VALUES (?, ?, ?)";

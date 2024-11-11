@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../style.css">
     <title>Lista</title>
 </head>
 <body>
@@ -10,12 +11,12 @@
 <h1>Lista de Usuários</h1>
 
 <?php
-
-foreach($receitas as $receita){
-    echo "Nome: " . $receita["nome_usuario"] . "<br>";
-    echo "E-mail: " . $receita["email"] . "<br>";
-    echo "Senha: " . $receita["senha"] . "<br>";
-    echo "<br><hr>";
+if (!empty($usuario)) {
+    echo "<p>Nome: " . htmlspecialchars($usuario['nome_usuario']) . "</p>";
+    echo "<p>E-mail: " . htmlspecialchars($usuario['email']) . "</p>";
+    echo "<p>Senha: " . htmlspecialchars($usuario['senha']) . "</p>";
+} else {
+    echo "<p>Usuário não encontrado.</p>";
 }
 
 ?>
