@@ -11,9 +11,9 @@
 <body>
     <h1>Cadastrar Usuário</h1>
     <form method="POST">
-        <input type="text" name="nome_usuario" placeholder="Nome">
-        <input type="text" name="email" placeholder="Email">
-        <input type="text" name="senha" placeholder="Senha">
+        <input type="text" name="nome_usuario" placeholder="Nome" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="senha" placeholder="Senha" required>
         <button type="submit">Enviar</button>
     </form>
 
@@ -21,18 +21,21 @@
     require_once 'C:/aluno2/xampp/htdocs/receitasculinarias/config.php';
     require_once 'C:/aluno2/xampp/htdocs/receitasculinarias/controller/ReceitaController.php';
 
-    if (isset($_POST["nome_usuario"]) && isset($_POST["email"]) && isset($_POST["senha"])){
-        $participanteController = new ParticipanteController($pdo);
+    if (isset($_POST["nome_usuario"]) && isset($_POST["email"]) && isset($_POST["senha"])) {
+        $receitaController = new ReceitaController($pdo);
 
-        $participanteController->criarParticipante($_POST["nome_usuario"], $_POST["idade"], $_POST["data"], $_POST["hora"], $_POST["acompanhante"]);
+        // Chama o método para cadastrar o usuário
+        $receitaController->adicionarusuario($_POST["nome_usuario"], $_POST["email"], $_POST["senha"]);
 
-        header("location: ../index.php");
+        // Redireciona para a página inicial após o cadastro
+        header("Location: ../index.php");
+        exit();
     }
     ?>
 
     <br><br>
 
-<a href="../index.php">VOLTAR</a>
+    <a href="../index.php">VOLTAR</a>
 </body>
 
 </html>
