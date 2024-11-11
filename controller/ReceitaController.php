@@ -62,6 +62,23 @@ class ReceitaController
         $this->receitaModel->adicionarreceita($nome_receita, $ingrediente, $modo_preparo);
     }
 
+    public function excluirReceita($id)
+    {
+        $this->receitaModel->excluirReceita($id);
+    }
+
+    // ReceitaController.php
+    public function atualizarReceita($id, $nome_receita, $ingrediente, $modo_preparo)
+    {
+        $this->receitaModel->atualizarReceita($id, $nome_receita, $ingrediente, $modo_preparo);
+    }
+
+    // ReceitaController.php
+    public function listarReceitaPorId($id)
+    {
+        return $this->receitaModel->listarReceitaPorId($id);
+    }
+
     public function listarReceitas()
     {
         return $this->receitaModel->listarReceitas();

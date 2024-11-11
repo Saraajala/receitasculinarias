@@ -7,7 +7,7 @@
 </head>
 <body>
 
-<h1>Lista de Receitas</h1>
+<h1>Lista de Usuários</h1>
 
 <?php
 
