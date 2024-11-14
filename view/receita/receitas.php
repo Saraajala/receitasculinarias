@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Lista de Receitas</h1>
+    <h1>Receitas Cadastradas</h1>
 
     <?php
     require_once 'C:/aluno2/xampp/htdocs/receitasculinarias/config.php';

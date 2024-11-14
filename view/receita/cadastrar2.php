@@ -27,7 +27,6 @@
 
         $receitaController->adicionarreceita($_POST["nome_receita"], $_POST["ingrediente"], $_POST["modo_preparo"]);
 
-        // Redireciona para a lista de receitas após o cadastro
         header("Location: receitas.php");
         exit();
     }

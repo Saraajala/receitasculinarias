@@ -44,7 +44,6 @@ class ReceitaModel
         $stmt->execute([$id]);
     }
 
-    // ReceitaModel.php
     public function atualizarReceita($id, $nome_receita, $ingrediente, $modo_preparo)
     {
         $sql = "UPDATE receitas SET nome_receita = ?, ingrediente = ?, modo_preparo = ? WHERE id = ?";
@@ -52,7 +51,6 @@ class ReceitaModel
         $stmt->execute([$nome_receita, $ingrediente, $modo_preparo, $id]);
     }
 
-    // ReceitaModel.php
     public function listarReceitaPorId($id)
     {
         $sql = "SELECT * FROM receitas WHERE id = ?";
@@ -60,7 +58,6 @@ class ReceitaModel
         $stmt->execute([$id]);
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
-
 
     public function listarReceitas()
     {

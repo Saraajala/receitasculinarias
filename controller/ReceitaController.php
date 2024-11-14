@@ -65,8 +65,7 @@ class ReceitaController
     {
         $this->receitaModel->excluirReceita($id);
     }
-
-    // ReceitaController.php
+    
     public function atualizarReceita($id, $nome_receita, $ingrediente, $modo_preparo)
     {
         $this->receitaModel->atualizarReceita($id, $nome_receita, $ingrediente, $modo_preparo);

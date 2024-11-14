@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h1>Cadastrar Usuário</h1>
+    <h1>Cadastrar</h1>
     <form method="POST">
         <input type="text" name="nome_usuario" placeholder="Nome" required>
         <input type="email" name="email" placeholder="Email" required>
