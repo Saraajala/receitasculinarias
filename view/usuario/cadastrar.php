@@ -10,31 +10,51 @@
 </head>
 
 <body>
-    <h1>Cadastrar</h1>
-    <form method="POST">
-        <input type="text" name="nome_usuario" placeholder="Nome" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <input type="password" name="senha" placeholder="Senha" required>
-        <button type="submit">Enviar</button>
-    </form>
+    <header class="fundoindex">
+        <div class="menu">
+            <h1><a href="../../index.php">Aroma & Sabor</a></h1>
+            <ul>
+                <li><a href="cadastrar.php">Cadastre-se</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="../../blog.php">Blog</a></li>
+            </ul>
+        </div>
 
-    <?php
-    require_once 'C:/aluno2/xampp/htdocs/receitasculinarias/config.php';
-    require_once 'C:/aluno2/xampp/htdocs/receitasculinarias/controller/ReceitaController.php';
+        <br><br><br><br><br><br><br>
 
-    if (isset($_POST["nome_usuario"]) && isset($_POST["email"]) && isset($_POST["senha"])) {
-        $receitaController = new ReceitaController($pdo);
+        <h3>Quero me cadastrar
+            <form method="POST">
+                <input type="text" name="nome_usuario" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="Email" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </h3>
 
-        $receitaController->adicionarusuario($_POST["nome_usuario"], $_POST["email"], $_POST["senha"]);
+        <?php
+        require_once 'C:/aluno2/xampp/htdocs/receitasculinarias/config.php';
+        require_once 'C:/aluno2/xampp/htdocs/receitasculinarias/controller/ReceitaController.php';
 
-        header("Location: ../index.php");
-        exit();
-    }
-    ?>
+        if (isset($_POST["nome_usuario"]) && isset($_POST["email"]) && isset($_POST["senha"])) {
+            $receitaController = new ReceitaController($pdo);
 
-    <br><br>
+            $receitaController->adicionarusuario($_POST["nome_usuario"], $_POST["email"], $_POST["senha"]);
 
-    <a href="../../index.php">VOLTAR</a>
+            header("Location: ../../blog.php");
+            exit();
+        }
+        ?>
+
+        <div class="btn">
+            <a href="../../index.php"><button>Voltar</button></a>
+        </div>
+    </header>
+
+    <footer class="rodape2">
+        <div>
+            <p>© 2024 Sara Ajala e Raissa Cruz. Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 
 </html>
