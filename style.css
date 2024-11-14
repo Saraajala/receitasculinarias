@@ -1,22 +1,15 @@
-/*Fontes estilizadas*/
+/* Fontes estilizadas */
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Faculty+Glyphic&family=Finlandica:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 /* Paleta de Cores */
 :root {
-    --color-background: #f9f9f3;
-    /* Fundo suave */
-    --color-primary: #6b8e23;
-    /* Verde oliva escuro */
-    --color-secondary: #8fbc8f;
-    /* Verde oliva médio */
-    --color-accent: #dcedc8;
-    /* Verde oliva claro */
-    --color-text: #333333;
-    /* Cor do texto principal */
-    --color-text-light: #ffffff;
-    /* Texto claro */
-    --color-shadow: rgba(0, 0, 0, 0.1);
-    /* Sombra leve */
+    --color-background: #e8e8e3; /* Fundo suave */
+    --color-primary: #697d5e;    /* Verde médio */
+    --color-secondary: #8a9a7e;  /* Verde suave */
+    --color-accent: #3d5539;     /* Verde escuro */
+    --color-text: #293728;       /* Verde muito escuro */
+    --color-text-light: #ffffff; /* Texto claro */
+    --color-shadow: rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
 /* Estilos Globais */
@@ -81,7 +74,7 @@ header h3 {
 }
 
 .menu a:hover {
-    color: var(--color-secondary);
+    color: var(--color-primary);
 }
 
 /* Botão */
@@ -132,11 +125,8 @@ header h3 {
     margin: 0 auto;
 }
 
-
-
 .voltar a {
     text-decoration: none;
-    
 }
 
 .voltar{
@@ -150,24 +140,119 @@ header h3 {
     font-size: 13px;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
-    header h3 {
-        font-size: 1.4em;
-    }
-
-    .menu ul {
-        flex-direction: column;
-    }
+.blog {
+    background: var(--color-secondary);
+    padding: 5px;
 }
 
-@media (max-width: 480px) {
-    header h3 {
-        font-size: 1.2em;
-    }
+.descricao {
+    flex: 1;
+    font-size: 1.2em;
+    color: var(--color-text-light);
+    text-align: left;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.307);
+    max-width: 500px;
+}
 
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 8px var(--color-shadow);
+    background: var(--color-secondary);
+}
+
+.imgcont {
+    flex: 1;
+    height: auto;
+    max-width: 600px;
+}
+
+.categorias {
+    background-color: var(--color-secondary);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.categorias li {
+    margin: 0;
+}
+
+.categorias a {
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.categorias a:hover {
+    color: var(--color-primary);
+}
+
+.receitas-recentes {
+    background-color: var(--color-background);
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.receitas-recentes h2 {
+    color: var(--color-primary);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.lista-receitas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.receita {
+    background-color: var(--color-secondary);
+    border-radius: 8px;
+    padding: 15px;
+    width: 280px;
+    box-shadow: 0px 4px 8px var(--color-shadow);
+    color: var(--color-text);
+    text-align: left;
+}
+
+.receita h3 {
+    color: var(--color-text-light);
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+
+.receita p {
+    color: var(--color-accent);
+    margin-bottom: 10px;
+}
+
+.ver-mais {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.ver-mais:hover {
+    color: var(--color-text-light);
 }
