@@ -40,6 +40,7 @@
             $receitaController->login($_POST["email"], $_POST["senha"]);
 
             header("Location: ../../blog.php");
+            exit();
         }
         ?>
 
