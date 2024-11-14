@@ -11,7 +11,7 @@ Apesar de possuir o mesmo sistema e estrutura que a página de cadastro, essa pa
 3.Blog
 Essa página apresenta mais desenvolvimento, pois é o corpo do site, onde é possível interagir, postar novas receitas e encontrar amigos. Sua estrutura apresenta divisões entre receitas doces, salgadas, drinks, receitas especiais, como receitas natalinas (sempre dependendo do feriado ou dia especial), podendo ser modificado durante os meses.
 
-## INSTALAÇÃO
+# INSTALAÇÃO
 
 Para encontrar nosso site, ou baixar em seu próprio dispositivo, disponibilizamos os códigos e alterações em nosso repositório no GitHub, sinta-se a vontade para criar modificações que se refiram melhor ao seus gostos, divirta-se!
 
