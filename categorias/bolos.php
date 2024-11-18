@@ -29,7 +29,7 @@
             
             <article class="receita">
                 <h3> Bolo Red Velvet</h3>
-                <img src="/img/imgbolo/bolo red velvet.jpg">
+                <img src="img/imgbolo/boloredvelvet.jpg">
                 <p>Macio e úmido, com massa vermelho-aveludada e cobertura cremosa de cream cheese.</p>
                 <a href="receitaescritas/boloredvelvet.php" class="ver-mais">Ver mais</a>
             </article>
@@ -43,7 +43,7 @@
 
             <article class="receita">
                 <h3>Bolo de chocolate</h3>
-                <img src="img/imgbolo/bolochocolate.webp">
+                <img src="../img/imgbolo/bolochocolate.jpg">
                 <p>Rico, úmido e cheio de sabor, coberto com uma camada cremosa de ganache ou calda de chocolate.</p>
                 <a href="receitasescritas/bolochocolate.php" class="ver-mais">Ver mais</a>
             </article>
