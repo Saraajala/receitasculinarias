@@ -9,10 +9,10 @@
 <body>
 <header class="blog">
         <div class="menu">
-            <h1><a href="index.php">Aroma & Sabor</a></h1>
+            <h1><a href="../index.php">Aroma & Sabor</a></h1>
             <ul>
-                <li><a href="blog.php">Blog</a></li>
-                <li><a href="index.php">Sair</a></li>
+                <li><a href="../blog.php">Blog</a></li>
+                <li><a href="../index.php">Sair</a></li>
             </ul>
         </div>
         <section class="container2">
