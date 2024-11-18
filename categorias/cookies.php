@@ -15,12 +15,29 @@
                 <li><a href="index.php">Sair</a></li>
             </ul>
         </div>
+        
         <section class="container2">
         <div class="btn">
             <a href="../view/receita/cadastrar2.php"><button>Cadastrar Nova Receita +</button></a>
         </div>
         </section>
     </header>
+
+    <!-- Menu de Categorias -->
+    <nav class="categorias">
+        <ul>
+            <li><a href="bolos.php">Bolos</a></li>
+            <li><a href="cookies.php">Cookies</a></li>
+            <li><a href="doces-saudaveis.php">Doces Saudáveis</a></li>
+            <li><a href="doces-natal.php">Doces de Natal</a></li>
+            <li><a href="massas.php">Massas</a></li>
+            <li><a href="culinaria-asiatica.php">Culinária Asiática</a></li>
+            <li><a href="receitas-saudaveis.php">Receitas Saudáveis</a></li>
+            <li><a href="receitas-natal.php">Receitas de Natal</a></li>
+            <li><a href="drinks-alcool.php">Drinks com Álcool</a></li>
+            <li><a href="drinks-sem-alcool.php">Drinks sem Álcool</a></li>
+        </ul>
+    </nav>
 
     <!-- Seção de Receitas de bolos -->
     <section class="receitas-recentes">
@@ -57,7 +74,7 @@
 
             <article class="receita">
                 <h3>Cookies de Nutella</h3>
-                <img class="img-receita" src="../img/img cookies/cookies de nutella.webp">
+                <img class="img-receita" src="../img/img cookies/nutellacookie.jpg">
                 <p>Cookies maravilhososrecheados com Nutella</p>
                 <a href="receitasescritas/cookiesnutella.php" class="ver-mais">Ver mais</a>
             </article>
@@ -71,21 +88,21 @@
 
             <article class="receita">
                 <h3>Cookies de Pistache</h3>
-                <img class="img-receita" src="../img/img cookies/cookies de pistache.webp">
+                <img class="img-receita" src="../img/img cookies/cookies de pistache.jpg">
                 <p>Cookies sensacionais, sabor pistache</p>
-                <a href="receitasescritas/cokiesdepistache.php" class="ver-mais">Ver mais</a>
+                <a href="receitasescritas/cookiesdepistache.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
                 <h3>Cookies de Sensação</h3>
-                <img class="img-receita" src="../img/img cookies/cookies de sensação.webp">
+                <img class="img-receita" src="../img/img cookies/cookies de sensação.jpg">
                 <p>Conheça os cookies sabor sensação</p>
                 <a href="receitasescritas/cookiessensacao.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Cookies com Gotas de Chocolate</h3>
-                <img class="img-receita" src="../img/img cookies/cookies original.jpg">
+                <h3>Cookies Simples</h3>
+                <img class="img-receita" src="../img/img cookies/cookies.avif">
                 <p>Cookies originais com gotas de chocolate</p>
                 <a href="receitasescritas/cookiesoriginais.php" class="ver-mais">Ver mais</a>
             </article>

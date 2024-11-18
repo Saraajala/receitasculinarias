@@ -22,6 +22,22 @@
         </section>
     </header>
 
+    <!-- Menu de Categorias -->
+    <nav class="categorias">
+        <ul>
+            <li><a href="bolos.php">Bolos</a></li>
+            <li><a href="cookies.php">Cookies</a></li>
+            <li><a href="doces-saudaveis.php">Doces Saudáveis</a></li>
+            <li><a href="doces-natal.php">Doces de Natal</a></li>
+            <li><a href="massas.php">Massas</a></li>
+            <li><a href="culinaria-asiatica.php">Culinária Asiática</a></li>
+            <li><a href="receitas-saudaveis.php">Receitas Saudáveis</a></li>
+            <li><a href="receitas-natal.php">Receitas de Natal</a></li>
+            <li><a href="drinks-alcool.php">Drinks com Álcool</a></li>
+            <li><a href="drinks-sem-alcool.php">Drinks sem Álcool</a></li>
+        </ul>
+    </nav>
+
     <!-- Seção de Receitas de bolos -->
     <section class="receitas-recentes">
         <h2>Bolos</h2>
