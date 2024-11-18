@@ -30,7 +30,6 @@ $receitaController = new ReceitaController($pdo);
             <ul>
                 <li><a href="view/usuario/cadastrar.php">Cadastre-se</a></li>
                 <li><a href="view/usuario/login.php">Login</a></li>
-                <li><a href="blog.php">Blog</a></li>
             </ul>
         </div>
 

@@ -13,9 +13,8 @@
         <div class="menu">
             <h1><a href="index.php">Aroma & Sabor</a></h1>
             <ul>
-                <li><a href="view/usuario/cadastrar.php">Cadastre-se</a></li>
-                <li><a href="view/usuario/login.php">Login</a></li>
                 <li><a href="blog.php">Blog</a></li>
+                <li><a href="index.php">Sair</a></li>
             </ul>
         </div>
         <section class="container2">
@@ -27,16 +26,16 @@
     <!-- Menu de Categorias -->
     <nav class="categorias">
         <ul>
-            <li><a href="bolos.php">Bolos</a></li>
-            <li><a href="cookies.php">Cookies</a></li>
-            <li><a href="doces-saudaveis.php">Doces Saudáveis</a></li>
-            <li><a href="doces-natal.php">Doces de Natal</a></li>
-            <li><a href="massas.php">Massas</a></li>
-            <li><a href="culinaria-asiatica.php">Culinária Asiática</a></li>
-            <li><a href="receitas-saudaveis.php">Receitas Saudáveis</a></li>
-            <li><a href="receitas-natal.php">Receitas de Natal</a></li>
-            <li><a href="drinks-alcool.php">Drinks com Álcool</a></li>
-            <li><a href="drinks-sem-alcool.php">Drinks sem Álcool</a></li>
+            <li><a href="categorias/bolos.php">Bolos</a></li>
+            <li><a href="categorias/cookies.php">Cookies</a></li>
+            <li><a href="categorias/doces-saudaveis.php">Doces Saudáveis</a></li>
+            <li><a href="categorias/doces-natal.php">Doces de Natal</a></li>
+            <li><a href="categorias/massas.php">Massas</a></li>
+            <li><a href="categorias/culinaria-asiatica.php">Culinária Asiática</a></li>
+            <li><a href="categorias/receitas-saudaveis.php">Receitas Saudáveis</a></li>
+            <li><a href="categorias/receitas-natal.php">Receitas de Natal</a></li>
+            <li><a href="categorias/drinks-alcool.php">Drinks com Álcool</a></li>
+            <li><a href="categorias/drinks-sem-alcool.php">Drinks sem Álcool</a></li>
         </ul>
     </nav>
 
@@ -44,29 +43,61 @@
     <section class="receitas-recentes">
         <h2>Receitas Recentes</h2>
         <div class="lista-receitas">
-            
+
             <article class="receita">
-                <h3>Título da Receita 1</h3>
-                <p>Descrição breve da receita 1...</p>
-                <a href="receita1.php" class="ver-mais">Ver mais</a>
+                <h3>Bolo de Chocolate</h3>
+                <img class="img-receita" src="img/imgbolo/bolochocolate.webp">
+                <p>Bolo macio com cobertura de brigadeiro</p>
+                <a href="receitasescritas/bolochocolate.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
                 <h3>Título da Receita 2</h3>
+                <img src="" alt="">
                 <p>Descrição breve da receita 2...</p>
-                <a href="receita2.php" class="ver-mais">Ver mais</a>
+                <a href="blog.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
                 <h3>Título da Receita 3</h3>
+                <img src="" alt="">
                 <p>Descrição breve da receita 3...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <a href="blog.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
                 <h3>Título da Receita 4</h3>
+                <img src="" alt="">
                 <p>Descrição breve da receita 4...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <a href="blog.php" class="ver-mais">Ver mais</a>
+            </article>
+
+            <article class="receita">
+                <h3>Título da Receita 5</h3>
+                <img src="" alt="">
+                <p>Descrição breve da receita 5...</p>
+                <a href="blog.php" class="ver-mais">Ver mais</a>
+            </article>
+
+            <article class="receita">
+                <h3>Título da Receita 6</h3>
+                <img src="" alt="">
+                <p>Descrição breve da receita 6...</p>
+                <a href="blog.php" class="ver-mais">Ver mais</a>
+            </article>
+
+            <article class="receita">
+                <h3>Título da Receita 7</h3>
+                <img src="" alt="">
+                <p>Descrição breve da receita 7...</p>
+                <a href="blog.php" class="ver-mais">Ver mais</a>
+            </article>
+
+            <article class="receita">
+                <h3>Título da Receita 8</h3>
+                <img src="" alt="">
+                <p>Descrição breve da receita 8...</p>
+                <a href="blog.php" class="ver-mais">Ver mais</a>
             </article>
 
         </div>

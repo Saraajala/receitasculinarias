@@ -40,7 +40,7 @@ class ReceitaController
                 $_SESSION['usuario_id'] = $usuario['id'];
                 $_SESSION['nome_usuario'] = $usuario['nome_usuario'];
 
-                header("Location: ../index.php");
+                header("Location: ../../blog.php");
                 exit();
             } else {
                 echo "Senha incorreta!";

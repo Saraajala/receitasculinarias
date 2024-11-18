@@ -17,7 +17,6 @@
             <ul>
                 <li><a href="cadastrar.php">Cadastre-se</a></li>
                 <li><a href="login.php">Login</a></li>
-                <li><a href="../../blog.php">Blog</a></li>
             </ul>
         </div>
 

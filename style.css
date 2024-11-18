@@ -224,15 +224,18 @@ header h3 {
     gap: 20px;
     justify-content: center;
 }
-
 .receita {
     background-color: var(--color-secondary);
-    border-radius: 8px;
     padding: 15px;
     width: 280px;
     box-shadow: 0px 4px 8px var(--color-shadow);
     color: var(--color-text);
     text-align: left;
+    height: 350px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    border-radius: 10px;
 }
 
 .receita h3 {
@@ -244,6 +247,7 @@ header h3 {
 .receita p {
     color: var(--color-accent);
     margin-bottom: 10px;
+    flex-grow: 1; 
 }
 
 .ver-mais {
@@ -255,4 +259,15 @@ header h3 {
 
 .ver-mais:hover {
     color: var(--color-text-light);
+}
+
+.detalhes-receita{
+color: var(--color-accent);
+}
+
+.img-receita {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3px;
+    border-radius: 10px;
 }
