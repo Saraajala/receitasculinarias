@@ -31,8 +31,8 @@
             <li><a href="categorias/doces-saudaveis.php">Doces Saudáveis</a></li>
             <li><a href="categorias/doces-natal.php">Doces de Natal</a></li>
             <li><a href="categorias/massas.php">Massas</a></li>
-            <li><a href="categorias/culinaria-asiatica.php">Culinária Asiática</a></li>
-            <li><a href="categorias/receitas-saudaveis.php">Receitas Saudáveis</a></li>
+            <li><a href="categorias/asiatica.php">Culinária Asiática</a></li>
+            <li><a href="categorias/saudavel.php">Receitas Saudáveis</a></li>
             <li><a href="categorias/receitas-natal.php">Receitas de Natal</a></li>
             <li><a href="categorias/drinks-alcool.php">Drinks com Álcool</a></li>
             <li><a href="categorias/drinks-sem-alcool.php">Drinks sem Álcool</a></li>

@@ -31,7 +31,7 @@
                 <h3>Lasanha</h3>
                 <img class="img-receita" src="../img/img massas/lasanha.jpg">
                 <p>Lasanha é um prato com camadas de massa, molho e queijo.</p>
-                <a href="receitaescritas/lasanha.php class="ver-mais>Ver mais</a>
+                <a href="receitaescritas/lasanha.php "class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
