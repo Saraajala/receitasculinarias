@@ -15,12 +15,29 @@
                 <li><a href="index.php">Sair</a></li>
             </ul>
         </div>
+        
         <section class="container2">
         <div class="btn">
             <a href="../view/receita/cadastrar2.php"><button>Cadastrar Nova Receita +</button></a>
         </div>
         </section>
     </header>
+
+    <!-- Menu de Categorias -->
+    <nav class="categorias">
+        <ul>
+            <li><a href="bolos.php">Bolos</a></li>
+            <li><a href="cookies.php">Cookies</a></li>
+            <li><a href="doces-saudaveis.php">Doces Saudáveis</a></li>
+            <li><a href="doces-natal.php">Doces de Natal</a></li>
+            <li><a href="massas.php">Massas</a></li>
+            <li><a href="culinaria-asiatica.php">Culinária Asiática</a></li>
+            <li><a href="receitas-saudaveis.php">Receitas Saudáveis</a></li>
+            <li><a href="receitas-natal.php">Receitas de Natal</a></li>
+            <li><a href="drinks-alcool.php">Drinks com Álcool</a></li>
+            <li><a href="drinks-sem-alcool.php">Drinks sem Álcool</a></li>
+        </ul>
+    </nav>
 
     <!-- Seção de Receitas de bolos -->
     <section class="receitas-recentes">
@@ -29,63 +46,72 @@
             
             <article class="receita">
             <h3>Cookies and Creem</h3>
-                <img class="img-receita2" src="img/img cookies/cookies and cream.jpg">
+                <img class="img-receita2" src="../img/img cookies/cookies and cream.jpg">
                 <p>Cookies macios com creme a base de manteiga</p>
                 <a href="receitasescritas/cokiescreem.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
                 <h3>Cookies com Sorvete</h3>
-                <p>Descrição breve da receita 2...</p>
-                <a href="receita2.php" class="ver-mais">Ver mais</a>
+                <img class="img-receita" src="../img/img cookies/cookies com sorvete.webp">
+                <p>Cookies com gotas de chocolate simples, acompanhado com sorvete</p>
+                <a href="receitasescritas/cookiescomsorvete.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 3</h3>
-                <p>Descrição breve da receita 3...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies de Doce de Leite</h3>
+                <img class="img-receita" src="../img/img cookies/cookies de doce de leite.webp">
+                <p>Deliciosos cookies recheados com doce de leite</p>
+                <a href="receitasescritas/cookiesdocedeleite.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 4</h3>
-                <p>Descrição breve da receita 4...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies de Ninho</h3>
+                <img class="img-receita" src="../img/img cookies/cookies de ninho.jpg">
+                <p>Cookies recheados com brigadeiro de leite ninho</p>
+                <a href="receitasescritas/cookiesleiteninho.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 5</h3>
-                <p>Descrição breve da receita 5...</p>
-                <a href="receita1.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies de Nutella</h3>
+                <img class="img-receita" src="../img/img cookies/nutellacookie.jpg">
+                <p>Cookies maravilhososrecheados com Nutella</p>
+                <a href="receitasescritas/cookiesnutella.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 6</h3>
-                <p>Descrição breve da receita 6...</p>
-                <a href="receita2.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies de Paçoca</h3>
+                <img class="img-receita" src="../img/img cookies/cookies de paçoca.avif">
+                <p>Cookies sabor paçoca</p>
+                <a href="receitasescritas/cookiesdepacoca.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 7</h3>
-                <p>Descrição breve da receita 7...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies de Pistache</h3>
+                <img class="img-receita" src="../img/img cookies/cookies de pistache.jpg">
+                <p>Cookies sensacionais, sabor pistache</p>
+                <a href="receitasescritas/cookiesdepistache.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 8</h3>
-                <p>Descrição breve da receita 8...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies de Sensação</h3>
+                <img class="img-receita" src="../img/img cookies/cookies de sensação.jpg">
+                <p>Conheça os cookies sabor sensação</p>
+                <a href="receitasescritas/cookiessensacao.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 9</h3>
-                <p>Descrição breve da receita 9...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies Simples</h3>
+                <img class="img-receita" src="../img/img cookies/cookies.avif">
+                <p>Cookies originais com gotas de chocolate</p>
+                <a href="receitasescritas/cookiesoriginais.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 10</h3>
-                <p>Descrição breve da receita 10...</p>
-                <a href="receita3.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies de Red Velvet</h3>
+                <img class="img-receita" src="../img/img cookies/cookies red velvet.png">
+                <p>Cookies com recheio de red velvet</p>
+                <a href="receitasescritas/cookiesredvelvet.php" class="ver-mais">Ver mais</a>
             </article>
 
         </div>
