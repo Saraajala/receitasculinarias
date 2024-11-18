@@ -30,72 +30,67 @@
             <article class="receita">
                 <h3>Lasanha</h3>
                 <img class="img-receita" src="../img/img massas/lasanha.jpg">
-                <p>Uma lasanha clássica com camadas de molho de tomate, queijo derretido e massa intercaladas.</p>
-                <a href="receitaescritas/lasanha.php class="ver-mais">Ver mais</a>
+                <p>Lasanha é um prato com camadas de massa, molho e queijo.</p>
+                <a href="receitaescritas/lasanha.php "class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo de cenoura</h3>
-                <img class="img-receita" src="../img/imgbolo/bolo de cenoura.jpg">
-                <p>Fofinho e dourado, com sabor suave de cenoura e uma irresistível cobertura de chocolate.</p>
-                <a href="receitasescritas/bolodecenoura.php" class="ver-mais">Ver mais</a>
+                <h3>Ravioli recheado</h3>
+                <img class="img-receita" src="../img/img massas/ravioli.webp">
+                <p>Ravioli recheado é uma massa fresca, preenchida com diversos ingredientes como queijos, carnes ou vegetais.</p>
+                <a href="receitasescritas/raviolirecheado.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo de chocolate</h3>
-                <img class="img-receita" src="../img/imgbolo/bolochocolate.jpg">
-                <p>Rico, úmido e cheio de sabor, coberto com uma camada cremosa de ganache ou calda de chocolate.</p>
-                <a href="receitasescritas/bolochocolate.php" class="ver-mais">Ver mais</a>
+                <h3>Nnhoque de batata</h3>
+                <img class="img-receita" src="../img/img massas/nhoque de batata.webp">
+                <p>Nhoque de batata é uma massa macia e leve, feita com batatas amassadas e farinha, geralmente servida com molhos variados.</p>
+                <a href="receitasescritas/nhoquedebatata.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo floresta negra</h3>
-                <img class="img-receita" src="../img/imgbolo/bolo-floresta-negra.jpg">
-                <p>Combinação irresistível de chocolate, chantilly e cerejas, em camadas perfeitas.</p>
-                <a href="receitasescritas/boloflorestanegra.php" class="ver-mais">Ver mais</a>
+                <h3>Canelone de queijo</h3>
+                <img class="img-receita" src="../img/img massas/canelone de queijo.jpg">
+                <p>Canelone de queijo é uma massa recheada com queijo cremoso, enrolada e coberta com molho delicioso.</p>
+                <a href="receitasescritas/canelone.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo de pistache</h3>
-                <img class="img-receita2" src="../img/imgbolo/bolo de  pistache2.jpg">
-                <p>Delicado e aromático, com sabor suave de pistache e cobertura cremosa.</p>
-                <a href="receitasescritas/bolopistache.php" class="ver-mais">Ver mais</a>
+                <h3>Quiche</h3>
+                <img class="img-receita2" src="../img/img massas/quiche.jpg">
+                <p>Quiche é uma torta salgada de massa crocante, recheada com creme e ingredientes variados.</p>
+                <a href="receitasescritas/quiche.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo de fubá</h3>
-                <img class="img-receita" src="../img/imgbolo/bolo de fubá.jpg">
-                <p>Simples e macio, com sabor caseiro e toque levemente adocicado de milho.</p>
-                <a href="receitasescritas/bolodefuba.php" class="ver-mais">Ver mais</a>
+                <h3>Empanada de forno</h3>
+                <img class="img-receita" src="../img/img massas/empanada de forno.jpg">
+                <p>Empanada de forno é uma massa assada recheada com carnes, queijos ou vegetais.</p>
+                <a href="receitasescritas/empanadadeforno.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo de milho</h3>
-                <img class="img-receita" src="../img/imgbolo/bolo de milho.jpg">
-                <p>Fofinho e saboroso, com o autêntico gosto do milho fresco.</p>
-                <a href="receitasescritas/bolodemilho.php" class="ver-mais">Ver mais</a>
+                <h3>Pastel assado</h3>
+                <img class="img-receita" src="../img/img massas/pastel assado.jpg">
+                <p>Pastel assado é uma massa crocante recheada e assada até dourar.</p>
+                <a href="receitasescritas/pastelassado.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo de prestígio</h3>
-                <img class="img-receita" src="../img/imgbolo/bolo de prestigio.webp">
-                <p>Combinação perfeita de chocolate e coco, com camadas cremosas e sabor irresistível.</p>
-                <a href="receitasescritas/bolodeprestigio.php" class="ver-mais">Ver mais</a>
+                <h3>Macarrão carbonara</h3>
+                <img class="img-receita" src="../img/img massas/macarrão carbonara.jpg">
+                <p>Macarrão à carbonara é uma massa envolvida em um molho cremoso de ovos, queijo parmesão, pancetta e pimenta.</p>
+                <a href="receitasescritas/macarraocarbonara.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Bolo mesclado</h3>
-                <img class="img-receita" src="../img/imgbolo/bolo mesclado.webp">
-                <p>Mistura macia de massas de baunilha e chocolate, formando um visual e sabor irresistíveis.</p>
-                <a href="receitaescritas/bolomesclado.php" class="ver-mais">Ver mais</a>
+                <h3>Macarrão ao molho pesto</h3>
+                <img class="img-receita" src="../img/img massas/macarrão ao molho pesto.webp">
+                <p>Macarrão ao molho pesto é uma massa com molho de manjericão, alho, pinoli e queijo.</p>
+                <a href="receitaescritas/macarraomolhopesto.php" class="ver-mais">Ver mais</a>
             </article>
 
-            <article class="receita">
-                <h3>Bolo de baunilha</h3>
-                <img class="img-receita" src="../img/imgbolo/bolo de baunilha.jpg">
-                <p> Leve, macio e aromático, com o sabor clássico e delicado da baunilha.</p>
-                <a href="receitasescritas/bolodebaunilha.php" class="ver-mais">Ver mais</a>
-            </article>
+     
 
         </div>
     </section>
