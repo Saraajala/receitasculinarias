@@ -46,58 +46,58 @@
 
             <article class="receita">
                 <h3>Bolo de Chocolate</h3>
-                <img class="img-receita" src="img/imgbolo/bolochocolate.webp">
+                <img class="img-receita" src="img/imgbolo/bolochocolate.jpg">
                 <p>Bolo macio com cobertura de brigadeiro</p>
                 <a href="receitasescritas/bolochocolate.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 2</h3>
-                <img src="" alt="">
-                <p>Descrição breve da receita 2...</p>
-                <a href="blog.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies e Mel</h3>
+                <img class="img-receita" src="img/doces saudaveis/cookies e mel.png">
+                <p>Cookies saudáveis, macios e deliciosos</p>
+                <a href="receitasescritas/cookiesemel.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 3</h3>
-                <img src="" alt="">
-                <p>Descrição breve da receita 3...</p>
-                <a href="blog.php" class="ver-mais">Ver mais</a>
+                <h3>Curry Tailandês</h3>
+                <img class="img-receita" src="img/img culinaria asiatica/curry tailandes.png">
+                <p>Uma mistura de sabores e especiarias única</p>
+                <a href="receitasescritas/currytailandes.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 4</h3>
-                <img src="" alt="">
-                <p>Descrição breve da receita 4...</p>
-                <a href="blog.php" class="ver-mais">Ver mais</a>
+                <h3>Lasanha</h3>
+                <img class="img-receita" src="img/img massas/lasanha.jpg">
+                <p>Lasanha típica italiana</p>
+                <a href="receitasescritas/lasanha.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 5</h3>
-                <img src="" alt="">
-                <p>Descrição breve da receita 5...</p>
-                <a href="blog.php" class="ver-mais">Ver mais</a>
+                <h3>Beringela a parmediana</h3>
+                <img class="img-receita" src="img/receitas saudáveis/beringela a parmegiana.webp">
+                <p>Beringela assada ao molho parmediana</p>
+                <a href="receitasescritas/beringelaparmediana.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 6</h3>
-                <img src="" alt="">
-                <p>Descrição breve da receita 6...</p>
-                <a href="blog.php" class="ver-mais">Ver mais</a>
+                <h3>Quiche</h3>
+                <img class="img-receita" src="img/img massas/quiche.jpg">
+                <p>torta aberta feita com recheio à base de ovos e creme de leite</p>
+                <a href="receitasescritas/quiche.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 7</h3>
-                <img src="" alt="">
-                <p>Descrição breve da receita 7...</p>
-                <a href="blog.php" class="ver-mais">Ver mais</a>
+                <h3>Cookies and Creem</h3>
+                <img class="img-receita2" src="img/img cookies/cookies and cream.jpg">
+                <p>Cookies macios com creme a base de manteiga</p>
+                <a href="receitasescritas/cokiescreem.php" class="ver-mais">Ver mais</a>
             </article>
 
             <article class="receita">
-                <h3>Título da Receita 8</h3>
-                <img src="" alt="">
-                <p>Descrição breve da receita 8...</p>
-                <a href="blog.php" class="ver-mais">Ver mais</a>
+                <h3>Chá Gelado de Pêssego</h3>
+                <img class="img-receita" src="img/drinks sem alcool/cha gelado de pessego.webp">
+                <p>Chá com cubos de gelo sabor pêssego</p>
+                <a href="receitasescritas/chageladopessego.php" class="ver-mais">Ver mais</a>
             </article>
 
         </div>
